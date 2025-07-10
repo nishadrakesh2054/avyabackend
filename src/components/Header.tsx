@@ -1,6 +1,7 @@
 'use client'
 import Link from 'next/link'
 import React, { useState, useRef, useEffect } from 'react'
+import Image from 'next/image'
 
 const Header = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false)
@@ -38,7 +39,13 @@ const Header = () => {
 
       <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
         <Link href="/admin">
-          <img src="/avyaclub.png" alt="NSFL Logo" style={{ height: '50px', width: 'auto' }} />
+          <Image
+            src="/avyaclub.png"
+            alt="NSFL Logo"
+            width={100}
+            height={50}
+            style={{ height: '50px', width: 'auto' }}
+          />
         </Link>
         <span
           style={{

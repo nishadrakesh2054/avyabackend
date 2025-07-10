@@ -1,6 +1,6 @@
 import React from 'react'
 
-const NsflLogo = ({ width = 150 }) => {
+const NsflLogo = () => {
   return (
     <div>
       <svg
