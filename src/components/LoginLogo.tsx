@@ -1,12 +1,14 @@
 import React from 'react'
+import Image from 'next/image'
 
 const LoginLogo = () => {
   return (
     <>
-      <img
+      <Image
         src="/avya.png" // adjust filename if needed
         alt="NSFL Logo"
-         style={{ width: '180px', height: 'auto' }}
+        width={180}
+        height={60}
       />
     </>
   )
