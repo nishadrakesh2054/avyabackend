@@ -52,7 +52,7 @@ export default buildConfig({
       header: ['../src/components/Header.tsx'],
     },
   },
-  cors: ['http://localhost:5173','http://127.0.0.1:5500' ,'https://avyabackend.onrender.com','https://avyaclient.vercel.app/'],
+  cors: ['http://localhost:5173','http://127.0.0.1:5500' ,'https://avyabackend.onrender.com','https://avyaclient.vercel.app'],
   collections: [
     Blog,
     Service,
