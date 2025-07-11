@@ -49,6 +49,22 @@ const Gallery: CollectionConfig = {
           value: 'Swimming',
         },
         {
+            label: 'Cafe',
+            value: 'Cafe',
+          },
+          {
+            label: 'Club',
+            value: 'Club',
+          },
+          {
+            label: 'Steam',
+            value: 'Steam',
+          },
+          {
+            label: 'Events',
+            value: 'Events',
+          },
+        {
           label: 'Yoga',
           value: 'Yoga',
         },

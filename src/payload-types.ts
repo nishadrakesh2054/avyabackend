@@ -252,7 +252,18 @@ export interface Notice {
 export interface Photo {
   id: string;
   photo?: (string | null) | Media;
-  category: 'GYM' | 'Swimming' | 'Yoga' | 'Boxing' | 'Zumba' | 'Cardio' | 'CrossFit';
+  category:
+    | 'GYM'
+    | 'Swimming'
+    | 'Cafe'
+    | 'Club'
+    | 'Steam'
+    | 'Events'
+    | 'Yoga'
+    | 'Boxing'
+    | 'Zumba'
+    | 'Cardio'
+    | 'CrossFit';
   updatedAt: string;
   createdAt: string;
 }
